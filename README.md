@@ -8,10 +8,14 @@ For (web) test deploying, you can use the _Remix VM_ to check your contract's fu
 For deploying using your own Injected Web3 Provider (only works on Web), You can connect Remix to your MetaMask Wallet and run (remember, it costs some test Ether to deploy and to run functions like `transfer` and `approve`).
 
 ### ⚠️ Important:
-🪙 Remember to create your own project [API key Infura](https://docs.infura.io/dashboard/create-api) and get your Ethereum or Testnet (I have used Sepolia Testnet) endpoint URL and Replace it in the WDApp code `line 9 infura_url`.\
+🪙 Remember to create your own project [API key on Infura](https://docs.infura.io/dashboard/create-api) and get your Ethereum or Testnet (I have used Sepolia Testnet) endpoint URL and Replace it in the WDApp code `line 9 infura_url`.\
 🪙 Once you deploy your contract, you will receive the Contract ABI and Address. Save the ABI (in-place of this one in the repo) and replace those in the code too `line 23 contract_address` and `line 24 "contract_abi.json"`.
 
 👉 API keys have rate limits, so be sure to use them carefully! :)
+
+👉 Some useful Sepolia faucets:\
+🚰 [Infura's Sepolia Faucet](https://www.infura.io/faucet/sepolia)\
+🚰 [Chainlink's Faucets](https://faucets.chain.link/sepolia)
 
 ---
 💡 This is a web deployment based app that supports local hosting on Vercel and Streamlit. I will be working on the _contract compilation_ using `npm hardhat` 👷 and update this repo to completely make it local 💻!
