@@ -6,7 +6,7 @@ import urllib.parse
 
 def main():
     # Define the Infura URL
-    infura_url = "https://sepolia.infura.io/v3/3e29a6a814b04a84b89a3a1c3a9244cf"
+    infura_url = "https://sepolia.infura.io/v3/<YOUR_API_KEY>"
     
     # Initialize a Web3 instance
     try:
