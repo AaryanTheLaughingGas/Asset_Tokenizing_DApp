@@ -14,6 +14,6 @@ For deploying using your own Injected Web3 Provider (only works on Web), You can
 👉 API keys have rate limits, so be sure to use them carefully! :)
 
 ---
-💡 This is a web deployment based app that supports local hosting on Vercel and Streamlit. I will be working on the _contract compilation_ using `npm hardhat` 👷 and update this repo to completely make it local 💻!\
+💡 This is a web deployment based app that supports local hosting on Vercel and Streamlit. I will be working on the _contract compilation_ using `npm hardhat` 👷 and update this repo to completely make it local 💻!
 
 To try local compilation yourself, check out this [link](https://www.infura.io/blog/post/getting-started-with-infura-28e41844cc89).
